@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+
+    <style>
+        form .form-control {
+            border-radius: 0;
+            border: 3px solid black;
+            background-color: lightcyan;
+        }
+
+        form #submit-button {
+            border-radius: 0;
+            border: 2px solid violet;
+            background-color: red;
+            height: 69px;
+            font-size: 55px;
+        }
+    </style>
+
+
+</head>
+<body style="background-image:  url(https://salvarawalterwhite.com/wp-content/uploads/2022/10/tile.png);">    
+    <div style="background-color: greenyellow;" class="container p-5">
+        <h2>Hola noia #0017</h2>
+        <form action="https://formspree.io/f/mrgwvybd"
+        method="POST">
+            <div class="form-group">
+              <label style="float:right"for="exampleInputEmail1">Nom</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">Esperem que no ens enganyis 😉</small>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Cugnoms</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">text daxemple</small>
+            </div>
+
+
+            <div class="form-group">
+              <label style="margin-right: 15px; float: right;"for="exampleInputPassword1">Macarrons o espaguetis?</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="aguantador de llocs">
+            </div>
+
+            <div class="form-group">
+                <label style="margin-left: 40px;" for="exampleInputPassword1">Justifica la teva resposta</label>
+                <textarea  style=""class="form-control" id="exampleTextArea" placeholder="justificala maca"> </textarea>
+            </div>
+
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">T'agrada que et <b>toquin</b>?¿?</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="La guitarra, es clar">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">I a quina hora vols que et toquin (no joke)?¿?</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="24/7 disponipla">
+            </div>
+
+            <div class="form-group">
+                <label style="font-size: larger;"for="exampleInputPassword1">I a quin lloc vols que et toquin?</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="A barcelona?">
+            </div>
+
+
+            <div class="form-check">
+              <input style="" type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label style="margin-right: 26px" class="form-check-label" for="exampleCheck1">On god 😎 </label>
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">No on god </label>
+              <img src="images/sad.png" alt="asdfdas" style="height: 24px;">
+            </div>
+
+
+            <button style="padding-left: 70px;"type="submit" id="submit-button"class="btn btn-primary container-fluid">Enviau</button>
+          </form>
+    </div>
+</body>
+</html>
